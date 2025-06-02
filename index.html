@@ -3,14 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.css" integrity="sha512-DKdRaC0QGJ/kjx0U0TtJNCamKnN4l+wsMdION3GG0WVK6hIoJ1UPHRHeXNiGsXdrmq19JJxgIubb/Z7Og2qJww==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    <link rel="stylesheet" href="./node_modules/lightbox2/dist/css/lightbox.css">
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-    />
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/style.css" />
     <title>LightApp | Home</title>
   </head>
@@ -34,50 +31,55 @@
           projects, driven by <span class="text-bg">innovation</span>
         </h2>
       </div>
+      <form id="form" method="get">
+        <input id="search" type="text" name="image" placeholder="e.g., sleeping cat">
+        <button type="submit" class="btn-generate">Search</button>
+      </form>
+      
       <div class="photos">
         <div>
-          <a href="/images/image1.jpg" data-lightbox="image-1" data-title="Architecture">
-            <img src="/images/image1.jpg" />
+          <a class="first-img-1" href="/images/image1.jpg" data-lightbox="image-1" data-title="Architecture">
+            <img class="img second-img-1" src="/images/image1.jpg"/>
+          </a>
+        </div>  
+        <div>
+          <a class="first-img-2" href="/images/image2.jpg" data-lightbox="image-2" data-title="Baby">
+            <img class="img second-img-2" src="/images/image2.jpg" />
           </a>
         </div>
         <div>
-          <a href="/images/image2.jpg" data-lightbox="image-2" data-title="Baby">
-            <img src="/images/image2.jpg" />
+          <a class="first-img-3" href="/images/image3.jpg" data-lightbox="image-3" data-title="Bird">
+            <img class="img second-img-3" src="/images/image3.jpg" />
           </a>
         </div>
         <div>
-          <a href="/images/image3.jpg" data-lightbox="image-3" data-title="Bird">
-            <img src="/images/image3.jpg" />
+          <a class="first-img-4" href="/images/image4.jpg" data-lightbox="image-4" data-title="Mountain">
+            <img class="img second-img-4" src="/images/image4.jpg" />
           </a>
         </div>
         <div>
-          <a href="/images/image4.jpg" data-lightbox="image-4" data-title="Mountain">
-            <img src="/images/image4.jpg" />
+          <a class="first-img-5" href="/images/image5.jpg" data-lightbox="image-5" data-title="Rose">
+            <img class="img second-img-5" src="/images/image5.jpg" />
           </a>
         </div>
         <div>
-          <a href="/images/image5.jpg" data-lightbox="image-5" data-title="Rose">
-            <img src="/images/image5.jpg" />
+          <a class="first-img-6" href="/images/image6.jpg" data-lightbox="image-6" data-title="Teddy">
+            <img class="img second-img-6" src="/images/image6.jpg" />
           </a>
         </div>
         <div>
-          <a href="/images/image6.jpg" data-lightbox="image-6" data-title="Teddy">
-            <img src="/images/image6.jpg" />
+          <a class="first-img-7" href="/images/image7.jpg" data-lightbox="image-7" data-title="Tree">
+            <img class="img second-img-7" src="/images/image7.jpg" />
           </a>
         </div>
         <div>
-          <a href="/images/image7.jpg" data-lightbox="image-7" data-title="Tree">
-            <img src="/images/image7.jpg" />
+          <a class="first-img-8" href="/images/image8.jpg" data-lightbox="image-8" data-title="Girl">
+            <img class="img second-img-8" src="/images/image8.jpg" />
           </a>
         </div>
         <div>
-          <a href="/images/image8.jpg" data-lightbox="image-8" data-title="Girl">
-            <img src="/images/image8.jpg" />
-          </a>
-        </div>
-        <div>
-          <a href="/images/image9.jpg" data-lightbox="image-9" data-title="Lion">
-            <img src="/images/image9.jpg" />
+          <a class="first-img-9" href="/images/image9.jpg" data-lightbox="image-9" data-title="Lion">
+            <img class="img second-img-9" src="/images/image9.jpg" />
           </a>
         </div>
       </div>
@@ -110,6 +112,7 @@
         <a href=""><i class="fa-brands fa-whatsapp fa-2x"></i></a>
       </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js" integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+    <script src="./node_modules/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="./node_modules/lightbox2/dist/js/lightbox.min.js"></script>
 </html>
