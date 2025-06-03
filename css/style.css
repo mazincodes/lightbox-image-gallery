@@ -257,6 +257,7 @@ ul {
 
 .team img {
   border-radius: 50%;
+  width: 250px;
 }
 
 /* CONTACT */
@@ -439,7 +440,7 @@ textarea {
   }
 
   .team img {
-    width: 200px;
+    width: 100px;
   }
 
   .form .form-group {

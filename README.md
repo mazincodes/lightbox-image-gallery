@@ -1,1 +1,1 @@
-An image gallery where users can click on any image and get a modal window right on their screen dimming the background.
+An image search website with a clean, responsive, and beautiful interface, where users with a single search can get over 8 images each with a description using a public API.
