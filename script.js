@@ -20,7 +20,7 @@ const secondImg9 = document.querySelector('.second-img-9')
 
 async function fetchImages(query){
     const response = await fetch(`https://api.pexels.com/v1/search?query=${query}&per_page=9`, {
-    headers: {
+        headers: {
         'Authorization': 'oCR9pO23hUXuGgEMe1GXv9Q2MYXDO3gXhD60vtrrLE2NZMyCXoriEGE2'
     }
     })
